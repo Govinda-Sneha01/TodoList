@@ -1,0 +1,71 @@
+.container{
+  width :100%;
+  min-height:100vh;
+  background:linear-gradient(135 deg);
+}
+
+.container{
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+.container h1{
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border:none;
+  outline: navajowhite;
+  background: thistle;
+  padding: 10px;
+}
+body {
+background-image:url("https://thumbs.dreamstime.com/b/defocus-light-pink-background-boke-overlay-copy-space-shine-204512741.jpg");
+margin: 0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen",
+"Ubuntu","Cantarell","Fira Sans","Droid sans","HelVetica Neue",
+sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  max-width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding:12px 20px;
+  background:blue;
+  color:#fff;
+  font-size:10px;
+  cursor: pointer;
+  border-radius: 40px; 
+}
+
+button:hover {
+  background-color:greenyellow;
+}
